@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('../assets/fonts/Lora-Regular.ttf');
+}
+
+.root{
+    --lora-font : 'Lora', serif;
+    --montserrat-font : 'Montserrat', sans-serif;
+
+}
+
+* {
+    font-family: var(--montserrat-font);
+}
